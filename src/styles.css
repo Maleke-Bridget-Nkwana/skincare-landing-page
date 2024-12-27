@@ -108,8 +108,8 @@ h2 {
 
 /* Call-to-Action Section */
 #cta {
-  background-color: #FFD700; /* Gold background */
-  color: #FFFFFF;
+  background-color: #ffd700; /* Gold background */
+  color: #ffffff;
   padding: 60px 20px;
   text-align: center;
 }
@@ -125,8 +125,8 @@ h2 {
 }
 
 #cta .cta-button {
-  background-color: #F8B9B9; /* Soft pink button */
-  color: #FFFFFF;
+  background-color: #f8b9b9; /* Soft pink button */
+  color: #ffffff;
   padding: 16px 32px;
   text-decoration: none;
   font-size: 20px;
@@ -138,4 +138,46 @@ h2 {
   background-color: #e09090; /* Darker pink on hover */
 }
 
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
 
+.footer-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.social-links a {
+  color: #ffd700; /* Gold links */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.social-links a:hover {
+  color: #f8b9b9; /* Soft pink on hover */
+}
+
+.footer-copy {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
