@@ -1,19 +1,19 @@
 /* Global Styles */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #333;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Hero Section Styling */
 .hero {
-  background-color: #F8B9B9; /* Soft pink background */
+  background-color: #f8b9b9; /* Soft pink background */
   height: 700px; /* Full viewport height */
   display: flex;
   justify-content: center;
@@ -22,29 +22,29 @@ h2 {
 }
 
 .hero-content {
-  color: #FFFFFF; /* White text */
+  color: #ffffff; /* White text */
 }
 
 .headline {
   font-size: 48px; /* Large headline */
   margin-bottom: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .subheading {
   font-size: 20px; /* Subheading */
   margin-bottom: 32px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .cta-button {
-  background-color: #FFD700; /* Gold button */
-  color: #FFFFFF;
+  background-color: #ffd700; /* Gold button */
+  color: #ffffff;
   padding: 16px 32px;
   text-decoration: none;
   border-radius: 5px;
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   transition: background-color 0.3s ease;
 }
 
@@ -57,7 +57,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   padding: 48px 16px;
-  background-color: #F8B9B9; /* Soft pink */
+  background-color: #f8b9b9; /* Soft pink */
 }
 
 .feature {
@@ -74,4 +74,34 @@ h2 {
 .feature p {
   font-size: 16px;
   color: #666;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #fff5f5; /* Light pink background */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#testimonials h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  font-size: 18px;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.testimonial h4 {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
 }
