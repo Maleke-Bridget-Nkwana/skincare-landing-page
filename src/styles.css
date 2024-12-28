@@ -344,58 +344,61 @@ nav ul li a:hover {
 }
 
 /* Mobile Responsiveness */
-@media (max-width: 768px) {
-  #hero {
+
+/* For Tablets and Small Desktops (768px and above) */
+@media (max-width: 1024px) {
+  #main-header {
     flex-direction: column;
     text-align: center;
   }
 
-  #hero .hero-image img {
-    margin-top: 20px;
-  }
-  .hero-content {
-    padding: 20px;
-  }
-
-  .headline {
-    font-size: 32px; /* Smaller font size */
-  }
-
-  .subheading {
-    font-size: 16px;
-  }
-
-  #features {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .feature {
-    margin-bottom: 20px;
-    width: 90%;
+    flex-direction: column;
+  }
+
+  #special-offer button {
+    width: 100%;
   }
 
   nav ul {
     flex-direction: column;
-    gap: 10px;
+  }
+}
+
+/* For Mobile Devices (600px and above) */
+@media (max-width: 600px) {
+  .logo h1 {
+    font-size: 18px;
+  }
+
+  #product-features .feature {
+    flex-direction: column;
+  }
+
+  #hero h1 {
+    font-size: 26px;
+  }
+
+  #special-offer p {
+    font-size: 14px;
+  }
+
+  #special-offer button {
+    font-size: 14px;
+  }
+}
+
+/* For Extra Small Screens (below 400px) */
+@media (max-width: 400px) {
+  #hero h1 {
+    font-size: 22px;
   }
 
   #main-header {
-    flex-wrap: wrap;
-  }
-
-  #testimonials,
-  #cta {
-    padding: 20px;
-  }
-
-  #testimonials h2,
-  #cta h2 {
-    font-size: 28px;
-  }
-
-  footer {
     padding: 10px;
+  }
+
+  .feature-text h3 {
+    font-size: 18px;
   }
 }
