@@ -375,6 +375,22 @@ nav ul li a:hover {
     flex-direction: column;
   }
 
+  #features {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .feature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .feature img {
+    max-width: 100%;
+    height: auto;
+  }
+
   #hero h1 {
     font-size: 26px;
   }
@@ -385,6 +401,14 @@ nav ul li a:hover {
 
   #special-offer button {
     font-size: 14px;
+  }
+
+  #how-it-works {
+    flex-direction: column;
+  }
+
+  .step {
+    margin-bottom: 15px;
   }
 }
 
