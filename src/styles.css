@@ -127,7 +127,8 @@ nav ul li a:hover {
 }
 
 .feature img {
-  width: 100%;
+  width: 150px;
+  height: auto;
   border-radius: 10px;
 }
 
